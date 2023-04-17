@@ -4,55 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="inicio.css">
-    <title>Advog.com</title>
+    
+    
+    <title>Contato</title>
+    <style>
+       
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+}
+.foo input, .foo textarea, .boo {
+    outline: unset;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+.foo input:focus, .foo textarea:focus, .boo:focus {
+background-color: rgb(243, 243, 243);
+}
+
+body{font-family: Arial, Helvetica, sans-serif;}
+.content{display:flex;justify-content:center ;}
+.contato{text-align: center;margin-top: 150px;}
+.form{display: flex;flex-direction: center;}
+.field{padding: 10px;margin-bottom: 15px;border: 1px solid #ddd; border-radius: 5px;font-family: Arial, Helvetica, sans-serif;font-size: 16px;}        
+
+.boo{
+    color: white;
+    background-color: black;
+    flex-direction: column;
+    width: 340px; height: 50px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+textarea {outline: unset;
+    flex-direction: column;
+    height: 120px;width: 200px;
+}
+
+body {
+    background-image: url("img/18220875_v1016-a-07.jpg" );
+    background-size: cover;   
+}
+
+
+.tt {
+    text-shadow: 2px 4px 7px gray;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.logo{
+    height: 150px;width: 150px;
+}
+
+
+
+    </style>
+
 </head>
 <body>
-
-
-    <nav class="dp-menu">
-        <ul>
-            <li><a href="inicio.html"><img src="img/2311531.png" width="70px" height="50px"></a>
-                
-                <ul>
-                    <li><a href="inicio.html"><img src="img/kisspng-login-google-account-computer-icons-user-activity-5ac6bbe6ad7041.1621164815229736707104-removebg-preview.png" width="50px" height="50px"><h1>Perfil</h1></a></li>
-                    <hr>
-                    <br>
-                    <br>
-                    <li><a href="Clientes.html">Clientes</a></li>
-                    <li><a href="NovosC.html">Novos Cadastros</a></li>
-                    <li><a href="Encerrados.html">Encerrados</a></li>
-                    <li><a href="Avaliações.html">Avaliações</a></li>
-                    </ul>
-        </ul>
-
-        <ul class="home">
-            <li><a href="inicio.html"><img src="img/1200px-Home-icon.svg.png" width="50px" height="40px"></a></li>
-        </ul>
-        </nav>
-
-
-
-
-	<button id="chat-button" > <img src="img/chat-icon-png-favpng-VKinQiXDg2r36LkdNHRSUCeDr-removebg-preview.png" width="70px" height="50px" ></button>
-	<div id="chat-box">
-
-        <img src="img/kisspng-login-google-account-computer-icons-user-activity-5ac6bbe6ad7041.1621164815229736707104-removebg-preview.png" width="100px" height="100px"><h1>Nome</h1>
-        <h2>Online agora</h2>
-        <hr>
-        <h3> Olá tenho uma duvida !</h3>
-        <br>
-        <h4> Estou a disposição !</h4>
-        <input type="text">
-
-
-    </div>
-
-
-
+    
+    <a href="inicio.html"><img class="logo" src="img/IMG-20230123-WA0001-removebg-preview (1).png" alt=""></a>
+    <section class="content">
+        <div class="contato">
+        <h1 class="tt">-Feedbacks-</h1>
+        
+        <form  class="foo" action="https://api.staticforms.xyz/submit" method="post">
+            <input class="field" type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
+            <br><input class="field" type="email" name="email" placeholder="Digite seu Email" autocomplete="off">
+            <br><label></label>
+            <textarea class="field" name="message" placeholder="Digite sua Mensagem"></textarea>
+            <button class="boo" type="submit">Enviar</button>
+            <input type="hidden" name="accessKey" value="98a80012-53fa-4fb3-88c2-86e4a9a9efba">
+        </div>
     
 
-
-<script src="inicio.js"></script>
+        
+    </form>
+    </section>
 </body>
 </html>

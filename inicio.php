@@ -9,6 +9,11 @@
 </head>
 <body>
 
+ Bem vindo
+
+
+    <script type="text/javascript"> (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.defer=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document, 'https://advog.ladesk.com/scripts/track.js', function(e){ LiveAgent.createButton('2nsm7g2o', e); }); 
+    </script>
 
     <nav class="dp-menu">
         <ul>
@@ -19,8 +24,8 @@
                     <hr>
                     <br>
                     <br>
-                    <li><a href="Processos.html">Processos</a></li>
-                    <li><a href="Avaliações.html" >Avaliações</a></li>
+                    <li><a href="Clientes.html">Processos</a></li>
+                    <li><a formacion="Avaliações.html" >Avaliações</a></li>
                     </ul>
         </ul>
 
@@ -30,30 +35,8 @@
         </ul>
         </nav>
 
+        
 
 
-
-	<button id="chat-button" > <img src="img/chat-icon-png-favpng-VKinQiXDg2r36LkdNHRSUCeDr-removebg-preview.png" width="70px" height="50px" ></button>
-	<div id="chat-box">
-
-        <img src="img/kisspng-login-google-account-computer-icons-user-activity-5ac6bbe6ad7041.1621164815229736707104-removebg-preview.png" width="100px" height="100px"><h1>Nome</h1>
-        <h2>Online agora</h2>
-        <hr>
-        <h3> Olá tenho uma duvida !</h3>
-        <br>
-        <h4> Estou a disposição !</h4>
-        <input type="text">
-
-
-    </div>
-
-    
-
-
-
-
-<chatButton class="addEventListener"></chatButton>
-
-<script src="inicio.js"></script>
 </body>
 </html>

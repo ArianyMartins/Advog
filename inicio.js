@@ -8,17 +8,3 @@ chatButton.addEventListener("click", function() {
 		chatBox.style.display = "none";
 	}
 });
-
-
-
-
-
-const buttonElement = document.createElement('button');
-buttonElement.id = 'my-button';
-buttonElement.textContent = 'Clique aqui';
-chatElement.appendChild(buttonElement);
-
-const buttonElement = document.getElementById('my-button');
-buttonElement.addEventListener('click', () => {
-  // Lógica do botão aqui
-});

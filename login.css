@@ -14,13 +14,15 @@ body{
 
 .Cadastro{
     color: goldenrod;
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-left: 150px;
 }
 input{
     border-radius: 20px;
     width: 500px;
     height: 50px;
     margin-top: 10px;
+    margin-left: 150px;
 }
 h2{
     font-size: 25px;
@@ -61,12 +63,21 @@ button:hover{
 }
 
 @media only screen and (max-width: 1070px) {
+    
     input{
         margin-top: 50px;
+        margin-left: -170px;
     }
     h2{
         display: inline;
         width: 250px;
-        margin-left: 115px;
+        margin-left: -50px;
+    }
+    .log{
+        width: 50px;
+        margin-left: -950px;
+    }
+    bottom{
+        margin-left: -200px;
     }
 }

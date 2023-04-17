@@ -5,7 +5,7 @@
 body{
     background: url("img/8038877_25101.jpg");
     background-size: cover;
-  }
+}
 
 .dp-menu ul{
     display: inline;
@@ -127,4 +127,15 @@ h4{
 
 #my-button{
     margin-left: 500px;
+}
+@media only screen and (max-width: 550px) {
+    #chat-box{
+        width: 350px;
+    }
+    h4{
+        margin-left: 90px;
+    }
+    input{
+        width: 340px;
+    }
 }
