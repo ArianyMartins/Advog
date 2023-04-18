@@ -1,12 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
   background: url("img/18220875_v1016-a-07.jpg");
   background-size: cover;
   }
-
+  .tabela{
+    display: flex;
+  }
 form{
     margin-top: 100px;
 }
@@ -57,13 +60,7 @@ input {
     .tabela{
       width: 100%;
       flex-direction: column;
+      overflow: none;
     }
-    .Logo{
-      width: 100%;
-      flex-direction: column;
-    }
-    .b1, .b2{
-      width: 100%;
-      flex-direction: column;
-    }
+
   }
