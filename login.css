@@ -8,7 +8,7 @@ body{
 }
 .log{
     color: goldenrod;
-    margin-top: 200px;
+    margin-top: 100px;
     font-size: 50px;
 }
 
@@ -62,7 +62,7 @@ button:hover{
     }
 }
 
-@media only screen and (max-width: 1070px) {
+@media only screen and (max-width: 1090px) {
     
     input{
         margin-top: 50px;
@@ -74,7 +74,7 @@ button:hover{
         margin-left: -50px;
     }
     .log{
-        width: 50px;
+        width: 40px;
         margin-left: -950px;
     }
     bottom{
