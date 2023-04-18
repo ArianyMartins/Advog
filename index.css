@@ -52,18 +52,3 @@ input {
 #my-button{
     margin-left: 500px;
 }
-@media only screen and (max-width: 768px) {
-
-    .tabela{
-      width: 100%;
-      flex-direction: column;
-    }
-    .Logo{
-      width: 100%;
-      flex-direction: column;
-    }
-    .b1, .b2{
-      width: 100%;
-      flex-direction: column;
-    }
-  }
