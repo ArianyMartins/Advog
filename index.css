@@ -52,19 +52,10 @@ input {
 #my-button{
     margin-left: 500px;
 }
-@media only screen and (max-width: 550px) {
-  *{
-    width: 550px;
-    height: 800ox;
-  }
+@media only screen and (max-width: 768px) {
+
     .tabela{
-      margin-right: -550px;
-      width: 350px;
+      width: 100%;
+      flex-direction: column;
     }
-    h4{
-        margin-left: 90px;
-    }
-    input{
-        width: 340px;
-    } 
-}
+  }
